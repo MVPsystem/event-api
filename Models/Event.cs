@@ -8,5 +8,8 @@
         public DateTime Date { get; set; }
         public string Location { get; set; }
         public string ImageUrl { get; set; }
+        public int TotalTickets { get; set; }
+        public int TicketsSold { get; set; }
+        public decimal Price { get; set; }
     }
 }
